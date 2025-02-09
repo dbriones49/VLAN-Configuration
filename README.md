@@ -93,8 +93,16 @@ Next we will interface the router, which is interface 5.
 
 #Testing
 
-Our next step is to test the network segregation. We will ping VLAN 20 from VLAN 10, between PC0 and PC3, by  using the terminal. The terminal confirms a time out, which is due becuase the router needs to be configured for inter VLAN routing, 
-which will be done next, beginning with VLAN 10 using the following command on the router's CLI.
+Our next step is to test the network segregation. We will ping VLAN 20 from VLAN 10, between PC0 and PC3, by  using the terminal. The terminal confirms a time out, which is due becuase the router needs to be configured for inter-VLAN routing.
+
+
+
+![image](https://github.com/user-attachments/assets/cbb340cf-83cb-4ca2-a7f5-0ccf1ed3dad3)
+
+
+
+
+Beginning with VLAN 10, we can configure inter-VLAN routing using the following command on the router's CLI.
 
 
 
@@ -104,7 +112,7 @@ which will be done next, beginning with VLAN 10 using the following command on t
 
 
 
-![image](https://github.com/user-attachments/assets/cbb340cf-83cb-4ca2-a7f5-0ccf1ed3dad3)
+
 
 
 
