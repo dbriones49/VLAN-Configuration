@@ -120,6 +120,30 @@ Beginning with VLAN 10, we can configure inter-VLAN routing using the following 
 
 
 
+Finally, we can retest the ping from PC0 to PC3 between VLANS. The ping confims a response. And all connection cables now reflect Green.
+
+
+
+
+
+![image](https://github.com/user-attachments/assets/2e6b0533-0b5b-4af9-b1aa-d4a4177e1182)
+
+
+
+
+
+
+
+
+
+
+
+![image](https://github.com/user-attachments/assets/95307e14-3b60-43b3-ad2e-00cc65519801)
+
+
+
+
+
 
 
 
