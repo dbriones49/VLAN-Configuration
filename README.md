@@ -23,7 +23,7 @@ We begin by connecting the PCs to the switch using straight through cable and co
 ![image](https://github.com/user-attachments/assets/caae3b50-8114-4c21-85ed-de4a7647c1d4)
 
 
-# Configuration
+## Congfiguration
 
 Next, static IP address, subnet masks, and gateways will be configured on the PCS. The VlANS will be known ans VLAN 10 and VLAN 20. VLAN 10 will be the top 2 PCs, and VLAN 20 will be the bottom 2 PCs.
 VLAN 10 will be comprised of PC0 and PC1, and will be assigned to gateway 192.168.1.1
@@ -91,7 +91,7 @@ Next we will interface the router, which is interface 5.
 ![image](https://github.com/user-attachments/assets/69f57b1c-e559-4d8d-b4e7-09374453d935)
 
 
-#Testing
+## Testing
 
 Our next step is to test the network segregation. We will ping VLAN 20 from VLAN 10, between PC0 and PC3, by  using the terminal. The terminal confirms a time out, which is due becuase the router needs to be configured for inter-VLAN routing.
 
@@ -141,7 +141,7 @@ Finally, we can retest the ping from PC0 to PC3 between VLANS. The ping confims 
 ![image](https://github.com/user-attachments/assets/95307e14-3b60-43b3-ad2e-00cc65519801)
 
 
-##Conclusion
+## Conclusion
 
 Understanding VLAN configuring fundamentals is crucial for effective network segmentation, which enhances security by isolating sensitive data and reducing the risk of unauthorized access. It also improves network performance by reducing broadcast traffic,
 allowing for more efficient use of bandwidth. Additionally, mastering VLAN configuration enables network administrators to implement scalable and manageable networks that can adapt to changing organizational needs.
