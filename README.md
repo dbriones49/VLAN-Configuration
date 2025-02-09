@@ -142,6 +142,7 @@ Finally, we can retest the ping from PC0 to PC3 between VLANS. The ping confims 
 
 
 ##Conclusion
+
 Understanding VLAN configuring fundamentals is crucial for effective network segmentation, which enhances security by isolating sensitive data and reducing the risk of unauthorized access. It also improves network performance by reducing broadcast traffic,
 allowing for more efficient use of bandwidth. Additionally, mastering VLAN configuration enables network administrators to implement scalable and manageable networks that can adapt to changing organizational needs.
 
