@@ -46,7 +46,53 @@ VLAN 10 will be named "HR", and VLAN 20 will be named "IT".
 ![image](https://github.com/user-attachments/assets/4ba40171-f41f-4d9a-8cb0-9dafdcdce6a6)
 
 
-Next, we will asisng the ports. There are two types of ports that we will use for this lab, Access ports and Trunk ports. 
+Next, we will asisng the ports. VLAN10 will be addressed first. We start by entering " int fa0/0". 
+Next we will allow access for PC0. 
+We enter " swithcport mode access"
+Then enter " switchport access vlan 10"
+
+
+
+
+
+
+![image](https://github.com/user-attachments/assets/9d5acd77-e445-4896-80a8-3b107b7e81a1)
+
+Next will configure the port for PC1 as part of VLAN, by repeating the same sequence for fa/02
+
+
+
+
+![image](https://github.com/user-attachments/assets/d1695d20-06a4-4ceb-8084-54a361b399ce)
+
+
+
+Next, we will address VLAN 20, and configure the 3rd interface with the same sequences for fa/03
+
+
+
+![image](https://github.com/user-attachments/assets/2b500b54-bb49-4b25-96b8-63c63e151943)
+
+
+
+Next, we will address VLAN 20, and configure the 4th interface with the same sequences for fa/04
+
+
+
+
+![image](https://github.com/user-attachments/assets/8daa56df-1f2a-4d44-81d1-63dacb85ede1)
+
+
+Next we will interface the router, which is interface 5. 
+
+
+
+
+![image](https://github.com/user-attachments/assets/69f57b1c-e559-4d8d-b4e7-09374453d935)
+
+
+
+
 
 
 
