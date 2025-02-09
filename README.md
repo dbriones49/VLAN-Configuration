@@ -107,7 +107,16 @@ Beginning with VLAN 10, we can configure inter-VLAN routing using the following 
 
 
 
-![image](https://github.com/user-attachments/assets/faec4290-43fa-4127-a147-f65ad0b76b42)
+ ![image](https://github.com/user-attachments/assets/45079ee1-a092-4d8d-b60e-c776132971b0)
+
+
+
+ Next, we repeat the process to configure VLAN 20 for inter-VLAN routing.
+
+ 
+
+  ![image](https://github.com/user-attachments/assets/4dc0e05a-ef0e-45db-8d32-867df5670f5c)
+
 
 
 
