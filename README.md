@@ -23,7 +23,7 @@ We begin by connecting the PCs to the switch using straight through cable and co
 ![image](https://github.com/user-attachments/assets/caae3b50-8114-4c21-85ed-de4a7647c1d4)
 
 
-## Congfiguration
+## Configuration
 
 Next, static IP address, subnet masks, and gateways will be configured on the PCS. The VlANS will be known ans VLAN 10 and VLAN 20. VLAN 10 will be the top 2 PCs, and VLAN 20 will be the bottom 2 PCs.
 VLAN 10 will be comprised of PC0 and PC1, and will be assigned to gateway 192.168.1.1
