@@ -38,7 +38,7 @@ VLAN 20 will be comprised of PC2 and PC3, and will be assigned to gateway 192.16
 
 
 
-The VLAN configuration will be completed on the switch. To begin, we type "enable", the " config terminal".   From here we can name the VLANS for their corresponding departments.
+The VLAN configuration will be completed on the switch. To begin, we type "enable", then " config terminal".   From here we can name the VLANS for their corresponding departments.
 VLAN 10 will be named "HR", and VLAN 20 will be named "IT".
 
 
